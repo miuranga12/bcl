@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navigation*/
+nav{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /*gap: 2rem;*/
+    color: transparent;
+    font-size: large;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(229, 239, 236, 0.819)
+}
+
+
+
+ul li a:hover{
+    /*background: #000;*/
+    color: black;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+/*Head*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5)),
+        url(../Asset/cambridge.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Optional: Add max-width and margin for better content readability and layout */
+}
+
+
+.Pa{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Pa a button{
+    background-color: #4daadb;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.intro{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Playfair', serif;
+}
+
+.Head-index h1{
+    text-align: center;
+    color: aliceblue;
+}
+.Head h1{
+    font-size: 60px;
+}
+
+
+.Head p{
+    text-align: center;
+    align-items: center;
+}
+
+.Head p a{
+    border: 2px solid wheat;
+    text-decoration: none;
+    /*color: white;*/
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.Head p a:hover{
+    background-color: white;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 8%;
+    padding: 50px;
+    background-color:  rgba(229, 239, 236, 0.819);
+    color: white;
+    
+  }

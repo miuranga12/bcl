@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* Container for centering the content */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* Card style for each section */
+.card {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    flex-basis: 30%; /* Adjust label width */
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    flex-basis: 20%; /* Adjust input field width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 60%;
+}
+
+button {
+    display: inline-block;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Back{
+    display: inline-block;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Back:hover {
+    background: #218838;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#donation-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-group label,
+    input[type="number"],
+    input[type="text"],
+    select {
+        flex-basis: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
