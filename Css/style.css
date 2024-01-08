@@ -60,7 +60,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5)),
-        url(./Asset/cambridge.avif);
+        url(../Asset/cambridge.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
